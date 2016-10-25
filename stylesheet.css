@@ -1,0 +1,150 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-image: url(background%202.jpg);
+    /*background-size: contain;
+    /*background-color: teal;
+    background-repeat: round;*/
+}
+
+header {
+    padding: 20px 0px;
+}
+
+header .row {
+    display: flex;
+    align-items: center;
+}
+
+footer .row {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: 700;
+    margin: 0;
+    font-family: cursive;
+    color: black;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+p a {
+    -webkit-transition: all 0.5 ease;
+    -moz-transition: all 0.5 ease;
+    -o-transition: all 0.5 ease;
+    color: purple;
+    font-size: 15px;
+    text-shadow: 10px black;
+}
+
+p a:hover {
+    color: dodgerblue;
+}
+
+header p {
+    padding: 0 20px;
+    margin: 0;
+    text-decoration: underline;
+    color: black;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url("http://images.nationalgeographic.com/wpf/media-live/photos/000/926/overrides/confluence-colorado-river-grand-canyon_92683_600x450.jpg");
+    background-size: cover;
+    color: white;
+    height: 500px;
+    text-shadow: 0.25px 0.25px 0.25px black;
+}
+
+.jumbotron h2 {
+    font-size: 200px;
+    margin: 0;
+    color: white;
+}
+
+.jumbotron h3 {
+    margin: 0 0 20px;
+    color: white;
+}
+
+section .row img {
+    margin: 0 0 30px;
+    width: 100%;
+} 
+
+.col-md-6 {
+    margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+    border-radius: 2px;
+    border: 0px;
+    color: #fbd1d5;
+    text-shadow: 1px;
+    background-color: white;
+}
+
+.btn.btn-primary:hover {
+    color: white;
+    background-color: #fbd1d5;
+}
+
+footer {
+    font-size: 12px;
+    padding: 20px;
+    margin-top: 40px;
+    background-image: url("footer.jpg");
+    opacity: 0.8;
+}
+
+footer .col-sm-8 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer ul {
+    list-style: none;           /*vary this to check the functions*/
+}
+
+footer li img {
+    width: 32px;
+    height: 32px;
+}
+
+.col-sm-4 {
+    color: snow;
+    font-size: 16px;
+    margin-top: -15px;
+    margin-left: 20px;
+}
+
+.col-sm-6 {
+    font-family: cursive;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 15px;
+    /*background-image: url("div-bg.jpg");*/
+}
+
+div img {
+    height: 325px;
+}
+
+.img1 {
+    
+}
+
+.img2 {
+    background-image: url("div-bg.jpg");
+}
+
